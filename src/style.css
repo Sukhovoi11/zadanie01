@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 6px;
+    background: #f8f8f8;
+    border-radius: 6px;
+}
+
+.task.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filters button {
+    flex: 1;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    margin: 0 2px;
+    border-radius: 5px;
+}
+
+.filters button.active {
+    background-color: #0078d7;
+    color: white;
+}
+
+#counter {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+.task button {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.task button:hover {
+    background-color: #d93636;
+}
