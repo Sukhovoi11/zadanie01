@@ -17,7 +17,7 @@ Stan listy jest zapisywany w pamięci przeglądarki (localStorage), więc po od�
 
 Pobierz folder projektu na komputer.
 
-Otwórz plik index.html w przeglądarce (np. Chrome, Edge, Firefox).
+Otwórz plik index.html w przeglądarce 
 
 Aplikacja działa całkowicie lokalnie, nie wymaga serwera ani Internetu.
 
